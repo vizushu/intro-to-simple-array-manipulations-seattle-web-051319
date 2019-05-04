@@ -12,6 +12,7 @@ end
 
 def pop_with_args(array)
   array.pop[-1, -2]
+  return array
 end
 
 def shift_with_args(array)
